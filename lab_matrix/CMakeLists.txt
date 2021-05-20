@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+set(CMAKE_CXX_FLAGS "${CMAE_CXX_FLAGS} -std=c++17 -pedantic -Wall -Werror")
+add_executable(prog_01 task_01.cpp)
+add_executable(prog_02 task_02.cpp)
+add_executable(prog_03 task_03.cpp)
